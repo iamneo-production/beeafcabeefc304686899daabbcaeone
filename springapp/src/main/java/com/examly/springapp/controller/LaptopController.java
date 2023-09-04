@@ -28,7 +28,7 @@ public class LaptopController {
         return apiService.getLaptopById(laptopId);
     }
 
-    @GetMapping("/hfk")
+    @GetMapping("/")
     public List<Laptop> getAllLaptops() {
         return apiService.getAllLaptops();
     }
