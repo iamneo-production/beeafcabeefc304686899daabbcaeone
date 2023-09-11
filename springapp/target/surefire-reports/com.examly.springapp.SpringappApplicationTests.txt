@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 2.892 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+testGetAllLaptopsApi  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.testGetAllLaptopsApi(SpringappApplicationTests.java:51)
+
+testAddLaptopApi  Time elapsed: 0.056 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.testAddLaptopApi(SpringappApplicationTests.java:35)
+
+testGetLaptopByIdApi  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.testGetLaptopByIdApi(SpringappApplicationTests.java:44)
+
+testcontrollerfile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testcontrollerfile(SpringappApplicationTests.java:68)
+
